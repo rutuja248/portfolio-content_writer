@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaEnvelope, FaInstagram, FaLinkedin, FaLocationArrow, FaYoutube, FaArrowRight } from 'react-icons/fa'
+import { FaEnvelope, FaInstagram, FaLinkedin, FaYoutube, FaArrowRight } from 'react-icons/fa'
 import { FaLocationPin } from 'react-icons/fa6'
 import sign from '../assets/sign.png'
 import { motion } from "framer-motion";

@@ -3,9 +3,6 @@ import bannerImage from '../assets/writer.png'
 import { FaDownload } from "react-icons/fa";
 import DownloadIcon from '../assets/download.png'
 import ArrowRight from '../assets/arrow-right.png'
-import PeopleIcon from '../assets/people_icon.png'
-
-
 
 const About = () => {
     const handleViewResume = () => {
