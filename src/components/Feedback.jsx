@@ -10,7 +10,7 @@ const Feedback = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
             viewport={{ once: true, amount: 0.2 }} 
             >
-            <div className='container md:mx-auto'>
+            <div className=' md:mx-auto'>
                 <h1 className='text-sm bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text w-fit'>CLIENT LOVE</h1>
                 <h2 className=' text-xl text-white pt-2 pb-5'>What Clients Say</h2>
                 <div className='flex flex-col md:flex-row gap-6 '>

@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className='px-4 md:px-15 py-4 sticky z-50 top-0 bg-[#10171F]'>
-      <div className='container mx-auto flex justify-between items-center'>
+      <div className='mx-auto flex justify-between items-center'>
         <div className='flex items-center gap-3'><img src={logo} alt="Amy Johnson logo" className='w-10 h-10' /><span className='text-md font-bold text-white tracking-wide'>Amy Johnson</span>
         </div>
         {/* mobile navigation  */}

@@ -12,7 +12,7 @@ const Contact = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
             viewport={{ once: true, amount: 0.2 }}
             >
-            <div className='container md:mx-auto md:px-15'>
+            <div className='md:mx-auto md:px-15'>
                 <div className='inside-content md:flex mx-auto md:px-10 px-5 bg-[#292447] py-10 rounded-xl'>
                     <div className='md:w-1/3 pr-5'>
                         <h1 className='text-3xl'>Let's create content <br></br>that gets results.</h1>
