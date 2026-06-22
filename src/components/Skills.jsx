@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from "framer-motion";
 const Skills = () => {
     return (
-        <motion.div className='py-4 md:px-15 px-5' id='services'
+        <motion.div className='py-4 md:px-15 px-5 lg:container lg:mx-auto' id='services'
         initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}

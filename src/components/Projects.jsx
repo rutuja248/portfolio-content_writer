@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Projects = () => {
     return (
         <motion.div
-            className="py-14"
+            className="py-14 lg:container lg:mx-auto"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}

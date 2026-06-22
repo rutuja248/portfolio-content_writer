@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Feedback = () => {
     return (
-        <motion.div className="pb-15 md:px-15 px-5"
+        <motion.div className="pb-15 md:px-15 px-5 lg:container lg:mx-auto"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}

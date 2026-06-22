@@ -11,12 +11,12 @@ const About = () => {
     }
     return (
         <div className='py-4 '>
-            <div className='flex flex-col md:flex-row justify-between items-center md:h-[80vh] min-h-0 overflow-hidden'>
+            <div className='lg:container lg:mx-auto flex flex-col md:flex-row justify-between items-center md:h-[80vh] min-h-0 overflow-hidden'>
                 <div className="w-full md:w-2/5 h-full flex justify-center">
                     <img
                         src={bannerImage}
                         alt="Content writer portrait"
-                        className="h-full object-cover float-animation"
+                        className="md:h-full object-cover float-animation"
                     />
                 </div>
                 <div className='w-full md:w-3/5 px-5 md:px-15 pt-10 md:pt-0 md:pl-20'>
@@ -48,17 +48,17 @@ const About = () => {
                         </div>
                         {/* Projects delivered  */}
                     </div>
-                    <div className='flex gap-8 items-center'>
+                    <div className='md:flex flex-row gap-8 items-center'>
                         <a
                             href="#tbd"
-                            className="inline-block mt-4 px-6 py-2 text-white font-medium rounded-lg bg-gradient-to-r from-blue-500 to-purple-500"
+                            className="inline-block mt-4 px-6 py-2 text-white font-medium rounded-lg bg-gradient-to-r from-blue-500 to-purple-500 w-full"
                         >
                             <span className="flex items-center justify-center gap-2 hover:scale-105 transition-all duration-300 text-md">
                                 View My Work
                                 <img src={ArrowRight} alt="arrow right" className="w-5 h-5" />
                             </span>
                         </a>
-                        <button onClick={handleViewResume} className='group mt-4 px-6 py-2 border-1 text-white font-medium rounded-lg'>
+                        <button onClick={handleViewResume} className='group mt-4 px-6 py-2 border-1 text-white font-medium rounded-lg w-full'>
                             <span className='flex items-center justify-center gap-2 group-hover:scale-105 transition-all duration-300 text-md'>Download Resume <img src={DownloadIcon} alt="download icon" className='w-5 h-5' /></span>
                         </button>
                     </div>
