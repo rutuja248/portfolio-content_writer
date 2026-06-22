@@ -23,7 +23,7 @@ const About = () => {
                     <p className='flex items-center gap-2 text-gray-400 border-1 rounded-4xl md:w-fit px-5 py-2 md:text-[16px]'><span className="w-2 h-2 bg-green-500 rounded-full"></span>Content Writer for Growth-Focused Brands</p>
                     <h1 className='text-6xl font-semibold text-gray-300 pt-5'>Hi, I'm <span className='bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text'>Amy</span></h1>
                     <h2 className='pt-5 text-2xl text-white'>I turn readers into customers with powerful content</h2>  
-                    <p className='pt-5 text-gray-400 text-lg'>From SEO blogs and website copy to brand storytelling, I create strategic content that builds trust, drives traffic, nd inspires action.</p>
+                    <p className='pt-5 text-gray-400 text-lg'>From SEO blogs and website copy to brand storytelling, I create strategic content that builds trust, drives traffic, and inspires action.</p>
                     <div className='mt-5 flex items-center rounded-xl py-5 w-fit gap-5'>
                         {/* Experience  */}
                         <div className='flex items-center gap-4 pr-8'>

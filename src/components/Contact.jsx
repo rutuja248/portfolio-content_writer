@@ -16,7 +16,7 @@ const Contact = () => {
                 <div className='inside-content md:flex mx-auto md:px-10 px-5 bg-[#292447] py-10 rounded-xl'>
                     <div className='md:w-1/3 pr-5'>
                         <h1 className='text-3xl'>Let's create content <br></br>that gets results.</h1>
-                        <p className='pt-5 text-gray-400 text-sm'>Ready to grow your brand with impactful content? <br />I'd love to hear about your peoject.</p>
+                        <p className='pt-5 text-gray-400 text-sm'>Ready to grow your brand with impactful content? <br />I'd love to hear about your project.</p>
                       <img src={sign} alt="" className='w-20 h-20' />
                     </div>
                     <div className='md:w-1.5/3 '>
